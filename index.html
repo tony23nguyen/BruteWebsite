@@ -1,35 +1,29 @@
 <!DOCTYPE html>
-<html>
-<head>
-   <link rel="stylesheet" type="text/css" href="styles.css">
-   <link rel="icon" type="image/gif" href="logos/BS_Icon_red.png" />
-   <img src="logos/BS_Text_red.png" style="width:250px;height:100px;"/>
-	<title>Brute Softworks</title>
-   
-</head>
-<body>
-   <br /><br />
-	<h1>Mission</h1>
-   <br />
-      <h2>
-         Our goal is to provide customized, high-quality, software solutions for small companies. 
-         <br /><br />
-         This site will host some small software samples, track personal projects and more or less act as the face of this company. 
-         <br />
-         As this site is new, please bear with me as I develop it over the coming months.
-      </h2>
-	<br />
-	<p>Contact me!</p>
-	<a href="mailto:Brute.Softworks@gmail.com"><b>Brute Softworks</b></a>
-   
-   <ul class="navbar">
-     <li><a href="index.html">Home</a></li>
-     <li><a href="blog.html">Blog</a></li>
-     <li><a href="about.html">About</a></li>
-   </ul>
+    <header>
+        <h1>
+            <img src="logos/BS_Text_red.png" alt="Logo" width="350" height="200">
+            <link rel="stylesheet" type="text/css" href="styles.css">
+        </h1>
+    </header>
+<body onload="currentlyDown()">
+        <div class="nav">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Services.html">Services</a>
+        </div>
+        <p>
+            Our goal is to provide customized, high-quality, software solutions for small companies.
+        </p>
+    <footer>
 
-   
+    </footer>
+
 </body>
-</html>
+<script>
+    function currentlyDown(){
+        location.href = "#comingsoon.html";
+    }
+</script>
+
 
 
