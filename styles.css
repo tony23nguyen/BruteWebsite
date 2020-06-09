@@ -1,36 +1,70 @@
-.down.cs {
+.down-cs {
     background-image: url('Images/website-under-construction edit.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 h1 {
     color: white;
     text-align: center;
     font-size: 60px;
     text-shadow: 2px 2px 4px #000000;
 }
+/* This is where the main site starts*/
+* {
+    font-family: Roboto, serif;
+}
 .nav {
-    background-color: firebrick;
+    background-color: #343435;
     text-align: center;
     font-size: 30px;
+    padding-bottom: 25px;
 }
 .nav a {
     color: white;
     padding: 20px;
     text-decoration: none;
-}
-.nav a:hover {
-    color: black;
-}
-a:active {
-    color: black;
-}
-p {
-    font-size: 25px;
-    color: black;
     text-align: center;
 }
+.nav a:hover {
+    color: firebrick;
+}
+a:active {
+    color: gray;
+}
+.WWD {
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+.WWD p {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+}
+header {
+    background-color: #343435;
+    height: auto;
+    width: auto;
+}
+body {
+    background-image:
+            linear-gradient(to bottom, rgba(255,250,250,0.9), rgba(255,250,250, 0.9)),
+            url('images/code-4457480_960_720.jpg');
+    background-size: cover;
+}
+
+.logo {
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
 
 
 
