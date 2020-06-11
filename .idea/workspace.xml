@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15613177-0599-4249-ac5e-a5aae3c16cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comingsoon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -65,6 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591631903554</updated>
       <workItem from="1591631905670" duration="17219000" />
+      <workItem from="1591747048959" duration="4905000" />
+      <workItem from="1591811440028" duration="16124000" />
     </task>
     <servers />
   </component>
@@ -81,6 +80,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="912" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591645460344">

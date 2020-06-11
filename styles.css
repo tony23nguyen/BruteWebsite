@@ -1,3 +1,4 @@
+
 .down-cs {
     background-image: url('Images/website-under-construction edit.jpg');
     background-repeat: no-repeat;
@@ -10,50 +11,17 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 /* This is where the main site starts*/
+@font-face {
+        src: url("logos/JetBrainsMono-1.0.3");
+    }
 * {
-    font-family: Roboto, serif;
+    font-family: "JetBrains Mono", monospace;
 }
-.nav {
-    background-color: #343435;
-    text-align: center;
-    font-size: 30px;
-    padding-bottom: 25px;
-}
-.nav a {
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    text-align: center;
-}
-.nav a:hover {
-    color: firebrick;
-}
-a:active {
-    color: gray;
-}
-.WWD {
-    height: auto;
-    width: auto;
-    background-color: white;
-}
-.WWD p {
-    font-size: 30px;
-    color: black;
-    text-align: center;
 
-}
 header {
-    background-color: #343435;
-    height: auto;
+    height: 200px;
     width: auto;
 }
-body {
-    background-image:
-            linear-gradient(to bottom, rgba(255,250,250,0.9), rgba(255,250,250, 0.9)),
-            url('images/code-4457480_960_720.jpg');
-    background-size: cover;
-}
-
 .logo {
     width: 500px;
     height: 200px;
@@ -62,7 +30,51 @@ body {
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.nav {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
 
+}
+.nav a {
+    color: #343434;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.nav a:hover {
+    color: #c4c4c4;
+}
+a:active {
+    color: firebrick;
+}
+.WWD {
+    height: auto;
+    width: auto;
+
+}
+.goal {
+    font-size: 30px;
+    color: snow;
+    text-align: center;
+
+}
+body {
+    background-image:
+            linear-gradient(to bottom, rgba(255,250,250,0.9), rgba(255,250,250, 0.9)),
+            url('images/code-4457480_960_720.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-body {
+    margin-top: 150px;
+    background-color: #343434;
+    background-size: cover;
+    height: 500px
 }
 
 
