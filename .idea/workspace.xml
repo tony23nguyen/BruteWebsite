@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15613177-0599-4249-ac5e-a5aae3c16cc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Asian_Palm_Civet_Over_A_Tree.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Asian_Palm_Civet_Over_A_Tree.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comingsoon.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -44,6 +44,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -74,7 +75,9 @@
       <workItem from="1592419608580" duration="4465000" />
       <workItem from="1592496757893" duration="22624000" />
       <workItem from="1592592014910" duration="7839000" />
-      <workItem from="1592599921868" duration="4154000" />
+      <workItem from="1592599921868" duration="4210000" />
+      <workItem from="1592713363281" duration="3434000" />
+      <workItem from="1592805221538" duration="4487000" />
     </task>
     <servers />
   </component>

@@ -38,6 +38,7 @@ header {
 .soft {
     height: auto;
     width: 100%;
+    text-align: center;
 }
 .title {
     color: snow;
@@ -49,7 +50,20 @@ header {
     font-size: 30px;
     color: snow;
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
+}
+.contact {
+    width: 150px;
+    height:50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+.contact:hover {
+    background-color: firebrick;
+    color: snow;
 }
 .intro {
     width: 100%;
@@ -68,6 +82,11 @@ header {
     color: snow;
     text-align: center;
     font-size: 55px;
+}
+.about h3 {
+    text-align: center;
+    font-size: 30px;
+    color: snow;
 }
 .about p {
     text-align: center;
@@ -124,6 +143,7 @@ header {
     width: 100%;
     height: 600px;
     margin-top: -50px;
+    padding-bottom: 50px;
 }
 .services h2 {
     height: auto;
@@ -149,6 +169,7 @@ header {
     text-align: center;
     color: snow;
     alignment: center;
+    margin: 40px;
 }
 Body {
     background-color: #001322;
@@ -157,14 +178,65 @@ Body {
 label {
     color: snow;
 }
-
-}
 footer {
     background-color: firebrick;
     margin-top: 200px;
     height: auto;
-    width: auto;
+    width: 100%;
+    display: table;
 }
+form {
+    margin-left: 250px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contact_input {
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid snow;
+    font-size: 25px;
+    margin: 15px;
+}
+::placeholder {
+    color: snow;
+}
+.contact-form-submit {
+    width: 150px;
+    height:50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+.contact-form-submit:hover {
+    background-color: #001322;
+    color: snow;
+}
+.fa {
+    padding: 20px;
+    font-size: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.social {
+}
+
 
 
 
