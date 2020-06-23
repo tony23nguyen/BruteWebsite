@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<header xmlns="http://www.w3.org/1999/html">
+<header id="home">
     <title>Software for Small Business</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="Services.html">Services</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
     </div>
 
 </header>
@@ -16,10 +16,10 @@
         <p class = "goal">
             Our goal is to provide customized, high-quality, software solutions for small companies
         </p>
-        <button type="button" class="contact">Contact Us</button>
+        <a href="#contact-form">Contact Us</a>
     </div>
     <section class = "intro">
-        <div class = "about">
+        <div id = "about">
             <h2>Who We Are</h2>
             <div class = "A joe">
                 <img class = "j" src="Images/14920793105_74c19b981f_b.jpg" alt = "bear">
@@ -53,7 +53,7 @@
             </div>
         </div>
     </section>
-    <section class = "services">
+    <section id = "services">
         <H2>Services</H2>
         <div class = "icons">
             <div id = "web">
@@ -79,19 +79,26 @@
         </div>
     </section>
     <footer>
-        <form id="contact-form" action="post" method="">
+        <div class="form">
+        <form id="contact-form" action="mailto:wellskati26@gmail.com" method="post" enctype="text/plain">
             <input name="name" type="text" class="contact_input" placeholder="Your Name" aria-label="name" required><br>
             <input name="company" type="text" class="contact_input" placeholder="Company Name" aria-label="company-name"><br>
             <input name="email" type="text" class="contact_input" placeholder="Email" aria-label="email" required><br>
             <textarea name="message" class="contact_input" placeholder="Message" aria-label="message" required></textarea><br>
             <button type="submit" class="contact-form-submit">Send Message</button>
         </form>
+        </div>
+        <div class="menu">
+            <h3>Navigation</h3>
+            <a href="#home">Home</a><br>
+            <a href="#about">About</a><br>
+            <a href="#services">Services</a><br>
+        </div>
         <div class="social">
+            <h3>Social</h3>
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-linkedin"></a>
         </div>
-
-
     </footer>
 </body>
 
