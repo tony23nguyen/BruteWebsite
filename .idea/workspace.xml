@@ -23,6 +23,14 @@
       <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Images/Asian_Palm_Civet_Over_A_Tree.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Asian_Palm_Civet_Over_A_Tree.jpg" afterDir="false" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -73,11 +81,22 @@
       <workItem from="1592323423991" duration="20241000" />
       <workItem from="1592412145777" duration="4003000" />
       <workItem from="1592419608580" duration="4465000" />
+<<<<<<< Updated upstream
       <workItem from="1592496757893" duration="22624000" />
       <workItem from="1592592014910" duration="7839000" />
       <workItem from="1592599921868" duration="4210000" />
       <workItem from="1592713363281" duration="3434000" />
+<<<<<<< Updated upstream
       <workItem from="1592805221538" duration="4487000" />
+=======
+      <workItem from="1592805221538" duration="11037000" />
+      <workItem from="1592862856492" duration="3664000" />
+      <workItem from="1592868374446" duration="2378000" />
+=======
+      <workItem from="1592496757893" duration="23036000" />
+      <workItem from="1592585811920" duration="3012000" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
