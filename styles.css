@@ -19,6 +19,7 @@
 }
 header {
     background-image: url("Images/19682.jpg");
+    background-size: cover;
     height: auto;
     width: auto;
 }
