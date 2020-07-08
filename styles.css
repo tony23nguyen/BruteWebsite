@@ -12,17 +12,15 @@ header {
 }
 .logo {
     float: left;
+    padding-left: 20px;
 }
 .logo img {
     width: 300px;
-    height: 150px;
-    margin-left: 60px;
+    height: 150px; 
     margin-top: 600px;
 }
 .nav {
     font-size: 30px;
-    padding-left: 60px;
-    align-self: center;
     padding-bottom: 200px;
 }
 .nav a {
@@ -64,7 +62,7 @@ header {
     background-color: firebrick;
     color: snow;
 }
-.about {
+#about {
     width: auto;
     height: auto;
     text-align: center;
@@ -73,11 +71,7 @@ header {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#about {
-    width: 800px;
-    display: inline-block;
-    padding-bottom: 25px;
-}
+
 #about H2 {
     color: snow;
     text-align: center;
@@ -93,24 +87,23 @@ header {
     color: snow;
     font-size: 20px;
 }
+#about div {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 #about img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     padding: 20px
 }
-#WWD {
-    width: auto;
-    height: auto;
-    text-align: center;
-}
 .WWD {
-    text-align: center;
-    width: 100%;
-    margin-top: 50px;
     background-color: rgba(255,250,250,0.1);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 .WWD H2 {
     color: snow;
@@ -124,65 +117,30 @@ header {
 }
 .WWD div {
     color: snow;
-    display: inline-block;
-    text-align: left;
 }
 .WWD p {
     text-align: left;
-    display: inline-block;
     color: snow;
 }
 #first, #second, #third {
-    display: inline-block;
-    text-align: center;
-    margin: 50px;
     border: 6px solid firebrick;
     border-radius: 10px;
     height: 300px;
     width: 400px;
     padding: 15px;
 }
-#first {
-    alignment: left;
-}
-#second {
-    alignment: center;
-}
-#third {
-    alignment: left;
-}
-#services {
-    text-align: center;
-    width: auto;
-    height: 600px;
-    margin-top: -50px;
-    padding-bottom: 100px;
-}
 #services h2 {
-    height: auto;
-    text-align: center;
-    font-size: 55px;
-    padding-bottom: 50px;
+    font-size: 40px;
     color: snow;
-    padding-top: 50px;
 }
 #services h3 {
-    text-align: center;
     font-size: 30px;
     color: white;
     text-decoration-line: underline;
 }
-#app, #web, #mait, #ETL {
-    float: left;
-    width: 25%;
-    display: inline-block;
-}
 .icons p {
     font-size: 20px;
-    text-align: center;
     color: snow;
-    alignment: center;
-    margin: 40px;
 }
 body {
     background-color: #001322;
@@ -191,26 +149,19 @@ label {
     color: snow;
 }
 footer {
-    height: auto;
-    width: 100%;
     background-color: firebrick;
-    display: table;
-}
-.form {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    display: table-cell;
-    width: 50%;
-    padding-left: 200px;
 }
 .contact_input {
-    width: 500px;
+    width: 100%;
     background: transparent;
     border: none;
     outline: none;
     border-bottom: 1px solid snow;
     font-size: 25px;
     margin: 15px;
+}
+.form-container {
+    max-width: 700px;
 }
 ::placeholder {
     color: snow;
@@ -236,7 +187,7 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    margin: 10px;
+    margin: 20px;
 }
 .fa-linkedin {
     background: #007bb5;
@@ -245,10 +196,7 @@ footer {
 .fa:hover {
     opacity: 0.7;
 }
-.social {
-    display: table-cell;
-    width: 25%;
-}
+
 .social h3 {
     color: snow;
     font-size:  30px;
@@ -257,10 +205,6 @@ footer {
     font-size: 30px;
     color: snow;
 }
-.menu {
-    display: table-cell;
-    width: 25%;
-}
 .menu a {
     text-decoration: none;
     color: #001322;
@@ -268,6 +212,21 @@ footer {
 }
 .menu a:hover {
     color: snow;
+}
+.center-me {
+    display: inline-block;
+    text-align: left;
+}
+@media only screen and (max-width: 992px) {
+    .reverse-cols {
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column-reverse;
+    }
+}
+footer div {
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 
